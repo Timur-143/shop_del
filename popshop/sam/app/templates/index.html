@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for elem in users %}
+<h2>{{ elem.pk }}</h2>
+<h2>{{ elem.title }}</h2>
+<h2>{{ elem.price }}</h2>
+<h2>{{ elem.comment }}</h2>
+<h2>{{ elem.data }}</h2>
+
+{% endfor %}
+
+</body>
+</html>
